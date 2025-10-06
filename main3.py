@@ -42,5 +42,53 @@ print(sentence.startswith("Python"))
 clean_sentence = sentence.strip()
 print("Avant :", repr(sentence))
 print("Après :", repr(clean_sentence))
+## Exercise 3: For Loops
 
+# TODO: Create a list of numbers 
+# ajouter ou supprimer des nombres dans cette liste (append, remove, pop)
+numbers = [1,2,3,4,5,6,7,8,9]
+print(numbers)
+
+numbers = list(range(1,6))
+print(numbers)
+
+# TODO: Use a for loop to print each number in the list : boucle for sert à afficher chaque élément de ta liste numbers, un par un
+
+for num in numbers:
+    print(num)
+
+# TODO: Use a for loop with enumerate() to print both index and value
+
+for num in numbers:
+
+# TODO: Create a dictionary and use a for loop to print all keys and values
+
+# TODO: Use a for loop with range() to print numbers from 1 to 10
+
+# TODO: Use list comprehension to create a new list of squares of numbers
+
+# TODO: Use a nested for loop to create a multiplication table (up to 5x5)
+
+
+#exercice 4 - While loops 
+# TODO: Use a while loop to print numbers from 1 to 10
+
+# TODO: Create a guessing game using a while loop
+# (generate a random number and let the user guess until correct)
+
+# TODO: Use a while loop to calculate the factorial of a number
+
+# TODO: Implement a simple calculator using a while loop
+# (continue calculating until the user chooses to exit)
+
+#exercice 5 - Combining Strings and Loops 
+# TODO: Create a function that counts the occurrence of each vowel in a string
+
+# TODO: Implement a simple Caesar cipher (shift each letter by a fixed amount)
+
+# TODO: Create a function that generates the NATO phonetic alphabet representation of a word
+
+# TODO: Implement a function that checks if a string is a palindrome
+
+# Test each function with sample inputs and print the results
 
