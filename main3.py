@@ -42,6 +42,7 @@ print(sentence.startswith("Python"))
 clean_sentence = sentence.strip()
 print("Avant :", repr(sentence))
 print("Après :", repr(clean_sentence))
+
 ## Exercise 3: For Loops
 
 # TODO: Create a list of numbers 
@@ -57,15 +58,38 @@ print(numbers)
 for num in numbers:
     print(num)
 
-# TODO: Use a for loop with enumerate() to print both index and value
+# TODO: Use a for loop with enumerate() to print both index and value : enumerate permet de connaitre la position et la valeur des numeros 
+for index, value in enumerate(numbers, start=0):
+    print(f"Index{index} : {value}")
 
-for num in numbers:
+for index, value in enumerate(numbers, start=1):
+    print(f"Index{index} : {value}")
 
 # TODO: Create a dictionary and use a for loop to print all keys and values
+vegetables = {
+"tomate" : "rouge", "artichaut" : "vert", "courgette" : "vert foncé", "salade" : "vert clair" 
+}
+for key, value in vegetables.items():
+    print(f"{key} : {value}")
 
 # TODO: Use a for loop with range() to print numbers from 1 to 10
 
+numbers = range(1, 34)
+print(numbers)
+
+#numbers = list(range(1, 34))print(numbers) print (numbers)#
+
+city = ["paris","marseille","lyon","toulon"]
+for i in city: 
+    print(i) 
+
+
+# exemple : 
+
+    
 # TODO: Use list comprehension to create a new list of squares of numbers
+
+
 
 # TODO: Use a nested for loop to create a multiplication table (up to 5x5)
 
@@ -91,4 +115,3 @@ for num in numbers:
 # TODO: Implement a function that checks if a string is a palindrome
 
 # Test each function with sample inputs and print the results
-
